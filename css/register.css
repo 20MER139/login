@@ -1,0 +1,213 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.right{
+    width: 90vmin;
+    height: 92.5vmin;
+    background-color: transparent;
+    backdrop-filter: blur(12.5px);
+    text-align: center;
+    border-radius: 2.5vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0.5vmin 0.5vmin black inset,0px 0px 0.5vmin 0.5vmin  black inset;
+}
+#fname{
+    width:50vmin;
+    height:4vmin;
+    border-radius: 5vmin;
+    border: 0.3vh solid rgb(223, 223, 223);
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset grey 0.25vmin 0.25vmin;
+    font-size: 1.65vmin;
+}
+#lname{
+    width:50vmin;
+    height:4vmin;
+    border-radius: 5vmin;
+    border: 0.3vmin solid rgb(223, 223, 223);
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset grey 0.25vmin 0.25vmin;
+    font-size: 1.65vmin;
+}
+#r_no{
+    width:50vmin;
+    height:4vmin;
+    border-radius: 5vmin;
+    border: 0.3vh solid rgb(223, 223, 223);
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset grey 0.25vmin 0.25vmin;
+    font-size: 1.65vmin;
+}
+#dob{
+    width:50vmin;
+    height:4vmin;
+    border-radius: 5vmin;
+    border: 0.3vmin solid rgb(223, 223, 223);
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset grey 0.25vmin 0.25vmin;
+    font-size: 1.65vmin;
+}
+#contact{
+    width:50vmin;
+    height:4vmin;
+    border-radius: 5vmin;
+    border: 0.3vh solid rgb(223, 223, 223);
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset grey 0.25vmin 0.25vmin;
+    font-size: 1.65vmin;
+}
+#pass1{
+    width:50vmin;
+    height:4vmin;
+    border-radius: 5vmin;
+    border: 0.3vh solid rgb(223, 223, 223);
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset grey 0.25vmin 0.25vmin;
+    font-size: 1.65vmin;
+}
+#pass2{
+    width:50vmin;
+    height:4vmin;
+    border-radius: 5vmin;
+    border: 0.3vmin solid rgb(223, 223, 223);
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset grey 0.25vmin 0.25vmin;
+    font-size: 1.65vmin;
+}
+#log{
+    color:white;
+    font-size: 5vmin;
+    font-weight: bold;
+}
+#btn{
+    background-color: rgb(23, 112, 255);
+    color: white;
+    width: 20vmin;
+    height: 4vmin;
+    border-right: 0.4vmin solid rgb(170, 170, 170);
+    border-bottom: 0.4vmin solid rgb(170, 170, 170);
+    border-top: 0.3vmin solid rgb(137, 137, 137);
+    border-left: 0.3vmin solid rgb(137, 137, 137);
+    cursor: pointer;
+    font-size: 1.6vmin;
+}
+#btn:active{
+    background-color: rgb(23, 81, 255);
+    border-right: 0.3vmin solid rgb(205, 202, 202);
+    border-bottom: 0.3vmin solid rgb(205, 202, 202);
+    border-top: 0.4vmin solid rgb(170, 170, 170);
+    border-left: 0.4vmin solid rgb(170, 170, 170);
+}
+body{
+    height: 100vmin;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/Background_img.jpg);
+    background-attachment: fixed;
+}
+#fname:focus{
+    outline: none;
+}
+#lname:focus{
+    outline: none;
+}
+#r_no:focus{
+    outline: none;
+}
+#dob:focus{
+    outline: none;
+}
+#contact:focus{
+    outline: none;
+}
+#pass1:focus{
+    outline: none;
+}
+#pass2:focus{
+    outline: none;
+}
+#warn_fname{
+    color: yellow;
+    font-style: normal;
+    text-transform: none;
+    visibility: hidden;
+    font-size: 1.85vmin;
+    padding: 1.5vmin;
+}
+#warn_lname{
+    color: yellow;
+    font-style: normal;
+    text-transform: none;
+    visibility: hidden;
+    font-size: 1.85vmin;
+    padding: 1.5vmin;
+}
+#warn_rno{
+    color: yellow;
+    font-style: normal;
+    text-transform: none;
+    visibility: hidden;
+    font-size: 1.85vmin;
+    padding: 1.5vmin;
+}
+#warn_dob{
+    color: yellow;
+    font-style: normal;
+    text-transform: none;
+    visibility: hidden;
+    font-size: 1.85vmin;
+    padding: 1.5vmin;
+}
+#warn_cont{
+    color: yellow;
+    font-style: normal;
+    text-transform: none;
+    visibility: hidden;
+    font-size: 1.85vmin;
+    padding: 1.5vmin;
+}
+#warn_pass{
+    color: yellow;
+    font-style: normal;
+    text-transform: none;
+    visibility: hidden;
+    font-size: 1.85vmin;
+    padding: 1.5vmin;
+}
+#warn_conpass{
+    color: yellow;
+    font-style: normal;
+    text-transform: none;
+    visibility: hidden;
+    font-size: 1.85vmin;
+    padding: 1.5vmin;
+}
+#success_msg{
+    color:rgb(0, 255, 0);
+    font-style: normal;
+    text-transform: none;
+    visibility: hidden;
+    font-size: 1.85vmin;
+    padding: 1.5vmin;
+}
+@media only screen and (max-width:800px)
+{
+    body{
+        height: 200vmin;
+    }
+}

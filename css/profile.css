@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+.Mainframe{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 95vmin;
+    height:50vmin;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(12.5px);
+    border-radius: 2.5vh;
+    box-shadow: 0.5vmin 0.5vmin black inset,0px 0px 0.5vmin 0.5vmin  black inset;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    padding: 1vh;
+    font-size: 2vmin;
+    color: antiquewhite;
+}
+h1{
+    padding: 2vh;
+    font-size: 5vmin;
+    color: antiquewhite;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/Background_img.jpg);
+    background-attachment: fixed;
+}
